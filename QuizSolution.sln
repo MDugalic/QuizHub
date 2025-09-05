@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizHub", "QuizHub\QuizHub.csproj", "{2116E9D1-4011-4895-8084-96F2B6FEBBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{6C53B540-F776-4381-B8E4-C33B8D022A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2116E9D1-4011-4895-8084-96F2B6FEBBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2116E9D1-4011-4895-8084-96F2B6FEBBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2116E9D1-4011-4895-8084-96F2B6FEBBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2116E9D1-4011-4895-8084-96F2B6FEBBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C53B540-F776-4381-B8E4-C33B8D022A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C53B540-F776-4381-B8E4-C33B8D022A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C53B540-F776-4381-B8E4-C33B8D022A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C53B540-F776-4381-B8E4-C33B8D022A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FF8B878-8277-4BE1-88A7-3D363317885E}
+	EndGlobalSection
+EndGlobal
