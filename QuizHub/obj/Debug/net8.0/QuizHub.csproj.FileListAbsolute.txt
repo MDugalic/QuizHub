@@ -153,3 +153,4 @@ C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Core.dll
 C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Infrastructure.dll
 C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Infrastructure.pdb
 C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Core.pdb
+C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\QuizHub.sourcelink.json

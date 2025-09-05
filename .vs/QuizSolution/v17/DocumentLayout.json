@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VEB2\\QuizSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}|Core\\Core.csproj|c:\\veb2\\quizsolution\\core\\entities\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}|Core\\Core.csproj|solutionrelative:core\\entities\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultDto.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\ResultDto.cs",
+              "RelativeDocumentMoniker": "QuizHub\\DTOs\\ResultDto.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\ResultDto.cs",
+              "RelativeToolTip": "QuizHub\\DTOs\\ResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:46:47.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "QuizHub\\Controllers\\ResultsController.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "QuizHub\\Controllers\\ResultsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:42:24.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\appsettings.json",
+              "RelativeDocumentMoniker": "QuizHub\\appsettings.json",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\appsettings.json",
+              "RelativeToolTip": "QuizHub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-05T18:35:55.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "QuizHub\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "QuizHub\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T18:28:28.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\Core\\Entities\\Result.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Result.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\Core\\Entities\\Result.cs",
+              "RelativeToolTip": "Core\\Entities\\Result.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T15:08:25.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "QuizHub\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "QuizHub\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwI8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T15:03:29.146Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

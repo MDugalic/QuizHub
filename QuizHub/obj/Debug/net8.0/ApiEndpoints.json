@@ -74,6 +74,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "QuizHub.Controllers.QuizController",
+    "Method": "SubmitQuiz",
+    "RelativePath": "api/Quiz/{id}/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "submission",
+        "Type": "QuizHub.DTOs.QuizSubmitDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "QuizHub.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
