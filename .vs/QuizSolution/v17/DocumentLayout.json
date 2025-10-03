@@ -46,8 +46,7 @@
               "RelativeToolTip": "QuizHub\\DTOs\\ResultDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T18:46:47.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T18:46:47.465Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "QuizHub\\Controllers\\ResultsController.cs",
               "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\ResultsController.cs",
               "RelativeToolTip": "QuizHub\\Controllers\\ResultsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T18:42:24.445Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "QuizHub\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-05T18:35:55.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T18:35:55.596Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "QuizHub\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T18:28:28.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T18:28:28.661Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Core\\Entities\\Result.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwBcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T15:08:25.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T15:08:25.738Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "QuizHub\\Controllers\\QuizController.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAkwI8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T15:03:29.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T15:03:29.146Z"
             }
           ]
         }

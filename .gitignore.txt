@@ -1,13 +1,19 @@
-# Visual Studio cache
+# Visual Studio
 .vs/
-bin/
-obj/
-
-# User-specific files
 *.user
 *.suo
 
-# Build results
-*.dll
-*.exe
-*.log
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# React / Node
+node_modules/
+dist/
+build/
+
+# OS fajlovi
+Thumbs.db
+.DS_Store
