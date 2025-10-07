@@ -12,7 +12,7 @@ namespace Core.Entities
         public string Username { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
-        public string? ProfileImageUrl { get; set; }   // opcionalno
+        public string? ProfileImage { get; set; }   // opcionalno
         public string Role { get; set; } = "User";     // default: User
 
         public ICollection<Result> Results { get; set; } = new List<Result>();
