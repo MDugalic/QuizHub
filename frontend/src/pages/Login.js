@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import api from "../services/api";
 
-export default function Login() {
-  const [form, setForm] = useState({ email: "", password: "" });
+function Login() {
+  const [form, setForm] = useState({ username: "", password: "" });
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -11,9 +13,13 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await api.post("/auth/login", form);
+      const res = await api.post("/api/auth/login", form);
       localStorage.setItem("token", res.data.token);
+      localStorage.setItem("username", res.data.username);
+      localStorage.setItem("profileImage", res.data.profileImage || "");
       alert("Login successful!");
+      window.location.reload();
+      navigate("/quizzes");
     } catch (err) {
       alert("Invalid credentials");
     }
@@ -25,11 +31,11 @@ export default function Login() {
         <h2 className="text-center mb-3">Login</h2>
         <div className="mb-3">
           <input
-            type="email"
-            name="email"
+            type="text"
+            name="username"
             className="form-control"
-            placeholder="Email"
-            value={form.email}
+            placeholder="Username"
+            value={form.username}
             onChange={handleChange}
           />
         </div>
@@ -50,3 +56,5 @@ export default function Login() {
     </div>
   );
 }
+
+export default Login;

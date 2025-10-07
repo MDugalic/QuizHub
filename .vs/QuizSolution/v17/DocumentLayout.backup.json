@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\VEB2\\QuizSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|c:\\veb2\\quizsolution\\quizhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2116E9D1-4011-4895-8084-96F2B6FEBBFF}|QuizHub\\QuizHub.csproj|solutionrelative:quizhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADB25B15-3038-4A58-833E-D5BB3D82A0B6}|Core\\Core.csproj|c:\\veb2\\quizsolution\\core\\entities\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "QuizHub\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "QuizHub\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T11:23:12.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "QuizHub\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "QuizHub\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T11:23:11.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ResultDto.cs",
               "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\DTOs\\ResultDto.cs",
               "RelativeDocumentMoniker": "QuizHub\\DTOs\\ResultDto.cs",
@@ -50,20 +84,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ResultsController.cs",
               "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\ResultsController.cs",
               "RelativeDocumentMoniker": "QuizHub\\Controllers\\ResultsController.cs",
               "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\ResultsController.cs",
               "RelativeToolTip": "QuizHub\\Controllers\\ResultsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvywAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T18:42:24.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\VEB2\\QuizSolution\\QuizHub\\appsettings.json",
               "RelativeDocumentMoniker": "QuizHub\\appsettings.json",
@@ -81,13 +115,14 @@
               "RelativeDocumentMoniker": "QuizHub\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\AuthController.cs",
               "RelativeToolTip": "QuizHub\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T18:28:28.661Z"
+              "WhenOpened": "2025-09-05T18:28:28.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\VEB2\\QuizSolution\\Core\\Entities\\Result.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\Result.cs",
@@ -105,9 +140,10 @@
               "RelativeDocumentMoniker": "QuizHub\\Controllers\\QuizController.cs",
               "ToolTip": "C:\\VEB2\\QuizSolution\\QuizHub\\Controllers\\QuizController.cs",
               "RelativeToolTip": "QuizHub\\Controllers\\QuizController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAkwI8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv5YAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T15:03:29.146Z"
+              "WhenOpened": "2025-09-05T15:03:29.146Z",
+              "EditorCaption": ""
             }
           ]
         }

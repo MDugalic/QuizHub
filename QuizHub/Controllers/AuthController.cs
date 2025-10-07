@@ -27,7 +27,7 @@ namespace QuizHub.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(RegisterDto dto)
+        public async Task<IActionResult> Register([FromForm] RegisterDto dto)
         {
             if (string.IsNullOrWhiteSpace(dto.Username) || string.IsNullOrWhiteSpace(dto.Password))
                 return BadRequest("Username or password are required");
@@ -40,11 +40,30 @@ namespace QuizHub.Controllers
 
             var passwordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password);
 
+            string? profileImagePath = null;
+            if (dto.ProfileImage != null)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "profiles");
+                if (!Directory.Exists(uploadsFolder))
+                    Directory.CreateDirectory(uploadsFolder);
+
+                var uniqueFileName = $"{Guid.NewGuid()}_{dto.ProfileImage.FileName}";
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await dto.ProfileImage.CopyToAsync(fileStream);
+                }
+
+                profileImagePath = $"/images/profiles/{uniqueFileName}";
+            }
+
             var user = new User
             {
                 Username = dto.Username,
                 Email = dto.Email,
                 PasswordHash = passwordHash,
+                ProfileImage = profileImagePath,
                 Role = "User"
             };
             _context.Users.Add(user);
@@ -54,7 +73,8 @@ namespace QuizHub.Controllers
                 user.Id,
                 user.Username,
                 user.Email,
-                user.Role
+                user.Role,
+                user.ProfileImage
             });
         }
         [HttpPost("login")]
@@ -68,10 +88,11 @@ namespace QuizHub.Controllers
 
             return Ok(new
             {
-                token, 
+                token,
                 user.Id,
                 user.Username,
-                user.Role
+                user.Role,
+                user.ProfileImage
             });
         }
 
