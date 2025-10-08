@@ -189,7 +189,7 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("ProfileImageUrl")
+                    b.Property<string>("ProfileImage")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Role")
