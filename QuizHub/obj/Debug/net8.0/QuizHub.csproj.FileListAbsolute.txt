@@ -142,7 +142,6 @@ C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\staticwebassets.build.json
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\staticwebassets.development.json
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\QuizHub.csproj.Up2Date
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\QuizHub.dll
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\refint\QuizHub.dll
@@ -154,3 +153,4 @@ C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Infrastructure.dll
 C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Infrastructure.pdb
 C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\Core.pdb
 C:\VEB2\QuizSolution\QuizHub\obj\Debug\net8.0\QuizHub.sourcelink.json
+C:\VEB2\QuizSolution\QuizHub\bin\Debug\net8.0\QuizHub.staticwebassets.runtime.json

@@ -50,6 +50,14 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// Seed admin user and sample data
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    QuizHub.CreateAdminUser.Create(context);
+    QuizHub.SeedData.Initialize(context);
+}
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
